@@ -1,0 +1,41 @@
+{
+  "name": "@astrojs/playground",
+  "type": "module",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "directory": "packages/core",
+    "url": "https://github.com/NewCastile/astro-playground"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./components": "./components/index.js",
+    "./client.js": "./client.js",
+    "./routes/api.ts": "./routes/api.ts",
+    "./package.json": "./package.json"
+  },
+  "keywords": [
+    "astro-component",
+    "editor",
+    "preview",
+    "playground"
+  ],
+  "author": {
+    "name": "NewCastile"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@astrojs/compiler": "^2.8.1",
+    "@webcontainer/api": "^1.2.0",
+    "astro": "^4.11.3",
+    "emmet-monaco-es": "^5.4.0",
+    "monaco-editor": "^0.50.0"
+  },
+  "devDependencies": {
+    "@shikijs/monaco": "^1.9.0",
+    "shiki": "^1.9.0"
+  }
+}

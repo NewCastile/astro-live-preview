@@ -1,5 +1,5 @@
 {
-  "name": "astro-live-preview",
+  "name": "astro-playground",
   "private": true,
   "scripts": {
     "build": "turbo build",
